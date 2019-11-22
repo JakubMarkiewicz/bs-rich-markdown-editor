@@ -1,6 +1,7 @@
 [@bs.obj]
 external makePropsEditor:
   (
+    ~className: string=?,
     ~id: string=?,
     ~defaultValue: string=?,
     ~placeholder: string=?,
@@ -22,6 +23,7 @@ external reactComponent: React.component('a) = "default";
 [@react.component]
 let make =
     (
+      ~className: option(string)=?,
       ~id: option(string)=?,
       ~defaultValue: option(string)=?,
       ~placeholder: option(string)=?,
@@ -36,6 +38,7 @@ let make =
   React.createElement(
     reactComponent,
     makePropsEditor(
+      ~className?,
       ~id?,
       ~defaultValue?,
       ~placeholder?,
@@ -46,5 +49,8 @@ let make =
       ~dark?,
       ~onCancel?,
       ~onChange?,
+      (),
     ),
   );
+
+let default = make;
