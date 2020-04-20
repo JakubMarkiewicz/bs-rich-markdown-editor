@@ -12,6 +12,7 @@ external makePropsEditor:
     ~dark: bool=?,
     ~onCancel: unit => unit=?,
     ~onChange: (unit => string) => unit=?,
+    ~uploadImage: Webapi.File.t => Js.Promise.t(string)=?,
     unit
   ) =>
   _ =
@@ -34,6 +35,7 @@ let make =
       ~dark: option(bool)=?,
       ~onCancel: option(unit => unit)=?,
       ~onChange: option((unit => string) => unit)=?,
+      ~uploadImage: option(Webapi.File.t => Js.Promise.t(string))=?,
     ) =>
   React.createElement(
     reactComponent,
@@ -49,6 +51,7 @@ let make =
       ~dark?,
       ~onCancel?,
       ~onChange?,
+      ~uploadImage?,
       (),
     ),
   );

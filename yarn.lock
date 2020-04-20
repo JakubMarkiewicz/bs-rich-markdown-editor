@@ -326,6 +326,11 @@ bs-platform@^5.2.1:
   resolved "https://npm.togedo.com/bs-platform/-/bs-platform-5.2.1.tgz#3f76f6d4f4c7255296375a8104c8be332770b691"
   integrity sha512-3ISP+RBC/NYILiJnphCY0W3RTYpQ11JGa2dBBLVug5fpFZ0qtSaL3ZplD8MyjNeXX2bC7xgrWfgBSn8Tc9om7Q==
 
+bs-webapi@^0.15.9:
+  version "0.15.9"
+  resolved "https://npm.togedo.com/bs-webapi/-/bs-webapi-0.15.9.tgz#d1dcfbd40499a3b0914daacc4ceef47a0f3c906f"
+  integrity sha512-bmzO6na2HmK01a34qB7afMwfVSrPxkP3EGzUslWObuxbHIlLC0PAMDu4lA8ZL5NasBUctlwnA1QZxox+1aNWWw==
+
 camelize@^1.0.0:
   version "1.0.0"
   resolved "https://npm.togedo.com/camelize/-/camelize-1.0.0.tgz#164a5483e630fa4321e5af07020e531831b2609b"
