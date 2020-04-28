@@ -1,6 +1,6 @@
 {
   "name": "bs-rich-markdown-editor",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "scripts": {
     "build": "bsb -make-world",
     "start": "bsb -make-world -w",
@@ -17,6 +17,6 @@
   },
   "dependencies": {
     "bs-webapi": "^0.15.9",
-    "rich-markdown-editor": "^9.10.0"
+    "rich-markdown-editor": "^9.11.2"
   }
 }
