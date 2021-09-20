@@ -356,15 +356,6 @@ chalk@^2.0.0:
     escape-string-regexp "^1.0.5"
     supports-color "^5.3.0"
 
-clipboard@^2.0.0:
-  version "2.0.4"
-  resolved "https://npm.togedo.com/clipboard/-/clipboard-2.0.4.tgz#836dafd66cf0fea5d71ce5d5b0bf6e958009112d"
-  integrity sha512-Vw26VSLRpJfBofiVaFb/I8PVfdI1OxKcYShe6fm0sP/DtmiWQNCjhM/okTvdCo0G+lMMm1rMYbk4IK4x1X+kgQ==
-  dependencies:
-    good-listener "^1.2.2"
-    select "^1.1.2"
-    tiny-emitter "^2.0.0"
-
 color-convert@^1.9.0:
   version "1.9.3"
   resolved "https://npm.togedo.com/color-convert/-/color-convert-1.9.3.tgz#bb71850690e1f136567de629d2d5471deda4c1e8"
@@ -438,11 +429,6 @@ debug@^4.1.0:
   integrity sha512-pYAIzeRo8J6KPEaJ0VWOh5Pzkbw/RetuzehGM7QRRX5he4fPHx2rdKMB256ehJCkX+XRQm16eZLqLNS8RSZXZw==
   dependencies:
     ms "^2.1.1"
-
-delegate@^3.1.2:
-  version "3.2.0"
-  resolved "https://npm.togedo.com/delegate/-/delegate-3.2.0.tgz#b66b71c3158522e8ab5744f720d8ca0c2af59166"
-  integrity sha512-IofjkYBZaZivn0V8nnsMJGBr4jVLxHDheKSW88PyxS5QC4Vo9ZbZVvhzlSxY87fVq3STR6r+4cGepyHkcWOQSw==
 
 detect-indent@^4.0.0:
   version "4.0.0"
@@ -532,13 +518,6 @@ golery-slate-prism@0.6.0-golery.2:
   version "0.6.0-golery.2"
   resolved "https://npm.togedo.com/golery-slate-prism/-/golery-slate-prism-0.6.0-golery.2.tgz#d56ae8f2dc8056c752da18cb06298dbf84a3d1b4"
   integrity sha512-vYJ2gU4lq2vXjICh1NWmS8xJWbFtVmHq56ubitNz10ZGIJmOklT4/qEDAAnGsVgpCZ1RcNCSjsGSrrC3jv3zNw==
-
-good-listener@^1.2.2:
-  version "1.2.2"
-  resolved "https://npm.togedo.com/good-listener/-/good-listener-1.2.2.tgz#d53b30cdf9313dffb7dc9a0d477096aa6d145c50"
-  integrity sha1-1TswzfkxPf+33JoNR3CWqm0UXFA=
-  dependencies:
-    delegate "^3.1.2"
 
 has-ansi@^2.0.0:
   version "2.0.0"
@@ -729,11 +708,9 @@ postcss-value-parser@^3.3.0:
   integrity sha512-pISE66AbVkp4fDQ7VHBwRNXzAAKJjw4Vw7nWI/+Q3vuly7SNfgYXvm6i5IgFylHGK5sP/xHAbB7N49OS4gWNyQ==
 
 prismjs@^1.16.0:
-  version "1.17.1"
-  resolved "https://npm.togedo.com/prismjs/-/prismjs-1.17.1.tgz#e669fcbd4cdd873c35102881c33b14d0d68519be"
-  integrity sha512-PrEDJAFdUGbOP6xK/UsfkC5ghJsPJviKgnQOoxaDbBjwc8op68Quupwt1DeAFoG8GImPhiKXAvvsH7wDSLsu1Q==
-  optionalDependencies:
-    clipboard "^2.0.0"
+  version "1.25.0"
+  resolved "https://registry.yarnpkg.com/prismjs/-/prismjs-1.25.0.tgz#6f822df1bdad965734b310b315a23315cf999756"
+  integrity sha512-WCjJHl1KEWbnkQom1+SzftbtXMKQoezOCYs5rECqMN+jP+apI7ftoflyqigqzopSO3hMhTEb0mFClA8lkolgEg==
 
 prop-types@^15.5.4, prop-types@^15.5.6, prop-types@^15.5.8, prop-types@^15.6.2:
   version "15.7.2"
@@ -821,10 +798,10 @@ repeating@^2.0.0:
   dependencies:
     is-finite "^1.0.0"
 
-rich-markdown-editor@^9.10.0:
-  version "9.10.0"
-  resolved "https://npm.togedo.com/rich-markdown-editor/-/rich-markdown-editor-9.10.0.tgz#df59720ed969c1288d672d58f239664a64dd1465"
-  integrity sha512-9FGzjPExSYb/T0Rp5YEkz8qgEQkiwprAzlg4J6aj5acFZlaon2QZ4sNO/2feBaT3IBfAbnPNZEb+JeuZpL7s7w==
+rich-markdown-editor@^9.11.2:
+  version "9.11.2"
+  resolved "https://registry.yarnpkg.com/rich-markdown-editor/-/rich-markdown-editor-9.11.2.tgz#12437f5594b492b2c64d6994554311ba0a45e77f"
+  integrity sha512-Pj/rBqHqB6tyqgzcdQ/KWFkEn5Yh6cOrjNoIGmmwXDVpsbYV/J9gcBiUfeA2oCAgjf8M1peSFgDPfwzl6SXP5g==
   dependencies:
     "@domoinc/slate-edit-table" "^0.22.2"
     "@tommoor/slate-edit-list" "0.19.0-0"
@@ -848,7 +825,7 @@ rich-markdown-editor@^9.10.0:
     slate "^0.45.0"
     slate-collapse-on-escape "^0.8.1"
     slate-drop-or-paste-images "^0.9.1"
-    slate-instant-replace "^0.1.13"
+    slate-instant-replace "^0.1.14"
     slate-md-serializer "5.4.4"
     slate-paste-linkify "^0.7.0"
     slate-react "^0.21.20"
@@ -863,11 +840,6 @@ scheduler@^0.18.0:
   dependencies:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
-
-select@^1.1.2:
-  version "1.1.2"
-  resolved "https://npm.togedo.com/select/-/select-1.1.2.tgz#0e7350acdec80b1108528786ec1d4418d11b396d"
-  integrity sha1-DnNQrN7ICxEIUoeG7B1EGNEbOW0=
 
 selection-is-backward@^1.0.0:
   version "1.0.0"
@@ -920,10 +892,10 @@ slate-hotkeys@^0.2.9:
     is-hotkey "0.1.4"
     slate-dev-environment "^0.2.2"
 
-slate-instant-replace@^0.1.13:
-  version "0.1.13"
-  resolved "https://npm.togedo.com/slate-instant-replace/-/slate-instant-replace-0.1.13.tgz#03a2c908253c399a1ca5d6922a93867eb186c69b"
-  integrity sha512-jesj33+TUgrmcVKGBy6QgqORaAq55hSuFmBOv70iNjif0CHqK9CapWfHOLg8N8HWw+VAX0YpSaqy/lAQSSmwWg==
+slate-instant-replace@^0.1.14:
+  version "0.1.16"
+  resolved "https://registry.yarnpkg.com/slate-instant-replace/-/slate-instant-replace-0.1.16.tgz#4b990666cb5f459453705d93a7ffd883b5e13833"
+  integrity sha512-mYVg3MriF4ire7LDbk38fEdTNT5n383CfxAy7pcFtDId1BwOuN3AOVtG80h+gd4hENAyI9PN7/FjIy1XqH9AMw==
 
 slate-md-serializer@5.4.4:
   version "5.4.4"
@@ -1052,11 +1024,6 @@ supports-color@^5.3.0, supports-color@^5.5.0:
   integrity sha512-QjVjwdXIt408MIiAqCX4oUKsgU2EqAGzs2Ppkm4aQYbjm+ZEWEcW4SfFNTr4uMNZma0ey4f5lgLrkB0aX0QMow==
   dependencies:
     has-flag "^3.0.0"
-
-tiny-emitter@^2.0.0:
-  version "2.1.0"
-  resolved "https://npm.togedo.com/tiny-emitter/-/tiny-emitter-2.1.0.tgz#1d1a56edfc51c43e863cbb5382a72330e3555423"
-  integrity sha512-NB6Dk1A9xgQPMoGqC5CVXn123gWyte215ONT5Pp5a0yt4nlEoO1ZWeCwpncaekPHXO60i47ihFnZPiRPjRMq4Q==
 
 tiny-invariant@^1.0.1:
   version "1.0.6"
